@@ -10,7 +10,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.collect { |dog| puts dog.name }
+    @@all.select { |dog| puts dog.name }
   end 
   
   def save 
