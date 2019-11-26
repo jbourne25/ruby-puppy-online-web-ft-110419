@@ -10,7 +10,7 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.map { |dog| puts dog.name }
+    @@all.map { |dog| puts dog.new }
   end 
   
   def save 
